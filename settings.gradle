@@ -1,2 +1,4 @@
 rootProject.name = 'java-prof'
 include 'hw01'
+include 'hw04'
+
