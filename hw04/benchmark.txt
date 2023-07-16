@@ -1,0 +1,10 @@
+Heap Size	Elapced Time, sec
+256		    Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+512		    15
+1024		13 <---- optimal
+1536		13
+2048		13
+
+Приведены результаты для G1.
+При тестировании Parallel и Serial оптимального времени исполнения удалось добиться при бальшиз значениях Heap
+При изменении Integer на int время исполнения с оптимальным значением Heap уменьшилось до 2-3 сек.
