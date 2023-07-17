@@ -3,6 +3,7 @@ package ru.otus;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 class Ioc {
 
@@ -24,10 +25,9 @@ class Ioc {
 
         @Override
         public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-            //Method m = loggingInterface.getClass().getMethod(method.getName());
-            //printMethods(loggingInterface);
-            if (loggingInterface.getClass().getMethod(method.getName(), int.class).isAnnotationPresent(Log.class)) {
-                System.out.println("executed method: " + method.getName() + ", param: " + args[0].toString());
+            if (loggingInterface.getClass().getMethod(method.getName(), method.getParameterTypes()).isAnnotationPresent(Log.class)) {
+                String[] params = Arrays.stream(args).map(Object::toString).toArray(String[]::new);
+                System.out.println("executed method: " + method.getName() + ", params: " + String.join(",", params));
             }
             return method.invoke(loggingInterface, args);
         }
