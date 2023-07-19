@@ -30,11 +30,13 @@ public class ResourcesFileLoader implements Loader {
             throw new FileProcessException("Read file exception");
         }
     }
+
     private String readFile(String fileName) throws IOException {
         try (var reader = new BufferedReader(new InputStreamReader(readResourceFile(fileName)))) {
             return reader.lines().collect(Collectors.joining(System.lineSeparator()));
         }
     }
+
     private InputStream readResourceFile(String fileName) {
         return ResourcesFileLoader.class.getClassLoader().getResourceAsStream(fileName);
     }
