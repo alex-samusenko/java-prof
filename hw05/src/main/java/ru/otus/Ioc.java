@@ -12,28 +12,32 @@ class Ioc {
     private Ioc() {
     }
 
-    static LoggingInterface createMyClass() {
-        InvocationHandler handler = new DemoInvocationHandler(new LoggingImpl());
-        return (LoggingInterface) Proxy.newProxyInstance(Ioc.class.getClassLoader(),
-                new Class<?>[]{LoggingInterface.class}, handler);
+    static <T> T createMyClass(Class<T> interfaceClass, T interfaceInstance) {
+        InvocationHandler handler = new DemoInvocationHandler(interfaceInstance);
+        return (T) Proxy.newProxyInstance(Ioc.class.getClassLoader(),
+                new Class<?>[]{interfaceClass}, handler);
     }
 
     static class DemoInvocationHandler implements InvocationHandler {
-        private final LoggingInterface loggingInterface;
+        private final Object loggingInterface;
 
         private final Map<String, Object> cache = new HashMap<>();
 
-        DemoInvocationHandler(LoggingInterface myClass) {
-            this.loggingInterface = myClass;
+        DemoInvocationHandler(Object loggingInterface) {
+            this.loggingInterface = loggingInterface;
         }
 
         @Override
         public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+
             String[] params = Arrays.stream(args).map(Object::toString).toArray(String[]::new);
+
             if (loggingInterface.getClass().getMethod(method.getName(), method.getParameterTypes()).isAnnotationPresent(Log.class)) {
                 System.out.println("executed method: " + method.getName() + ", params: " + String.join(",", params));
             }
-            String cacheKey = method.getName() + "(" + String.join(",", params) + ")";
+
+            String cacheKey = loggingInterface.getClass().toString() + '.' + method.getName() + "(" + String.join(",", params) + ")";
+
             if (cache.containsKey(cacheKey)) {
                 return cache.get(cacheKey);
             }
