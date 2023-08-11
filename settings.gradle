@@ -1,9 +1,6 @@
 rootProject.name = 'java-prof'
 include 'hw01'
-include 'hw04'
-<<<<<<<<< Temporary merge branch 1
 include 'hw02'
-=========
 include 'hw03'
->>>>>>>>> Temporary merge branch 2
-
+include 'hw04'
+include 'hw05'
