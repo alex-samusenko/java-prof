@@ -24,6 +24,8 @@ allprojects {
             }
             dependency "com.google.guava:guava:${Versions.guava}"
             dependency("com.google.code.gson:gson:${Versions.gson}")
+            dependency("com.github.tomakehurst:wiremock:${Versions.wiremock}")
+            dependency "org.ow2.asm:asm-commons:${Versions.asm}"
         }
     }
 
