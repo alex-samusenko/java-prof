@@ -23,6 +23,7 @@ allprojects {
                 mavenBom "com.google.protobuf:protobuf-bom:3.23.4"
             }
             dependency "com.google.guava:guava:${Versions.guava}"
+            dependency("com.google.code.gson:gson:${Versions.gson}")
             dependency("com.github.tomakehurst:wiremock:${Versions.wiremock}")
             dependency "org.ow2.asm:asm-commons:${Versions.asm}"
         }
