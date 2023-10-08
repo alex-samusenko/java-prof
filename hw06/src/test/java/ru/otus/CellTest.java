@@ -23,7 +23,7 @@ public class CellTest {
         assertThat(cell.getBanknoteQty()).isEqualTo(100L);
     }
 
-    @DisplayName("Изьятие банктнот из ячейки (есть в наличии)")
+    @DisplayName("Получие банктнот из ячейки (есть в наличии)")
     @Test
     void takeBanknote1() {
         cell = new Cell(Banknote.KOSAR);
