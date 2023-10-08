@@ -26,6 +26,9 @@ allprojects {
             dependency("com.google.code.gson:gson:${Versions.gson}")
             dependency("com.github.tomakehurst:wiremock:${Versions.wiremock}")
             dependency "org.ow2.asm:asm-commons:${Versions.asm}"
+            dependency("org.glassfish:jakarta.json:${Versions.glassfishJson}")
+            dependency("org.neo4j.driver:neo4j-java-driver:${Versions.neo4j}")
+            dependency("io.r2dbc:r2dbc-postgresql:${Versions.r2dbcPostgresql}")
         }
     }
 
