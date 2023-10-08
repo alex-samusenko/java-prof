@@ -26,7 +26,7 @@ public class AppComponentsContainerImpl implements AppComponentsContainer {
     }
 
     private void processConfig(Class<?> configClass) throws Exception {
-        checkConfigClass(configClass);
+        //checkConfigClass(configClass);
         Object configClassInstance = configClass.getConstructor().newInstance();
         List<Method> methods = Arrays.stream(configClass.getMethods()).filter(method -> method.isAnnotationPresent(AppComponent.class))
                 .sorted(Comparator.comparingInt(m -> m.getAnnotation(AppComponent.class).order())).toList();
