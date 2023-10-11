@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.otus.handler.ComplexProcessorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-08T09:01:03" hostname="RU01-2850" time="1.633">
+  <properties/>
+  <testcase name="РўРµСЃС‚РёСЂСѓРµРј РІС‹Р·РѕРІС‹ РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ" classname="ru.otus.handler.ComplexProcessorTest" time="1.566"/>
+  <testcase name="РўРµСЃС‚РёСЂСѓРµРј СѓРІРµРґРѕРјР»РµРЅРёСЏ" classname="ru.otus.handler.ComplexProcessorTest" time="0.041"/>
+  <testcase name="РўРµСЃС‚РёСЂСѓРµРј РѕР±СЂР°Р±РѕС‚РєСѓ РёСЃРєР»СЋС‡РµРЅРёСЏ" classname="ru.otus.handler.ComplexProcessorTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

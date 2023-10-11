@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.otus.processor.homework.ProcessorExceptionGeneratorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-08T09:01:04" hostname="RU01-2850" time="0.017">
+  <properties/>
+  <testcase name="Р’С‹Р·РѕРІ РёСЃРєР»СЋС‡РµРЅРёСЏ РІ С‡РµС‚РЅСѓСЋ СЃРµРєСѓРЅРґСѓ" classname="ru.otus.processor.homework.ProcessorExceptionGeneratorTest" time="0.012"/>
+  <testcase name="РћС‚СЃСѓС‚СЃС‚РІРёРµ РёСЃРєР»СЋС‡РµРЅРёСЏ РІ РЅРµС‡РµС‚РЅСѓСЋ СЃРµРєСѓРЅРґСѓ" classname="ru.otus.processor.homework.ProcessorExceptionGeneratorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

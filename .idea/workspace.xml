@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75b71169-bf78-4078-a320-f1f17cf3f75e" name="Changes" comment="hw13-di" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aleksey Samusenko &lt;59772770+alex-samusenko@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw13-di" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2SKFhXoE3HqnbHhxdP3Ku6F1lTg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/work/java-prof/hw13/src/test/java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.otus.jdbc.mapper" />
+      <recent name="ru.otus.processor.homework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\java-prof\hw13\src\test\java" />
+      <recent name="C:\work\java-prof\hw13\src\main\java" />
+      <recent name="C:\work\java-prof\hw09\src\main\java\ru\otus" />
+      <recent name="C:\work\java-prof\hw09\src\main\resources" />
+      <recent name="C:\work\java-prof\hw09" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\java-prof\hw02\src\test\java\ru\otus" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.otus" />
+      <recent name="ru.otus.model" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.java-prof [build]">
+    <configuration name="java-prof [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-prof.hw02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.mutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-prof.hw02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.CustomerTest" />
+      <option name="METHOD_NAME" value="mutationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.reverseOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-prof.hw02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.CustomerTest" />
+      <option name="METHOD_NAME" value="reverseOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.scoreSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-prof.hw02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.CustomerTest" />
+      <option name="METHOD_NAME" value="scoreSortingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.java-prof [build]" />
+      <item itemvalue="JUnit.CustomerTest" />
+      <item itemvalue="JUnit.CustomerTest.mutationTest" />
+      <item itemvalue="JUnit.CustomerTest.reverseOrderTest" />
+      <item itemvalue="JUnit.CustomerTest.scoreSortingTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerTest.scoreSortingTest" />
+        <item itemvalue="JUnit.CustomerTest.reverseOrderTest" />
+        <item itemvalue="JUnit.CustomerTest.mutationTest" />
+        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="Gradle.java-prof [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75b71169-bf78-4078-a320-f1f17cf3f75e" name="Changes" comment="" />
+      <created>1688887484567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688887484567</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Update .gitignore">
+      <created>1688896742887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688896742888</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hw04-gc">
+      <option name="closed" value="true" />
+      <created>1689442485129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689442485129</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hw04-gc">
+      <option name="closed" value="true" />
+      <created>1689442898628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689442898628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hw04-gc">
+      <option name="closed" value="true" />
+      <created>1689447288917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689447288917</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hw05-byteCode">
+      <option name="closed" value="true" />
+      <created>1689515081062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689515081062</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hw05-byteCode">
+      <option name="closed" value="true" />
+      <created>1689589843198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689589843198</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw02-collections">
+      <option name="closed" value="true" />
+      <created>1689601873846</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689601873846</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hw03-annotations">
+      <option name="closed" value="true" />
+      <created>1689612208518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689612208518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hw06-atm">
+      <option name="closed" value="true" />
+      <created>1689663586995</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689663586995</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hw08-json">
+      <option name="closed" value="true" />
+      <created>1689670261489</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689670261489</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hw08-json">
+      <option name="closed" value="true" />
+      <created>1689751494855</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689751494855</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hw07-msg">
+      <option name="closed" value="true" />
+      <created>1689790884444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689790884444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hw05-bytecode">
+      <option name="closed" value="true" />
+      <created>1691489321508</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691489321508</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hw05-revision">
+      <option name="closed" value="true" />
+      <created>1691496150492</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691496150492</updated>
+    </task>
+    <task id="LOCAL-00015" summary="hw05-revision2">
+      <option name="closed" value="true" />
+      <created>1691572886437</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691572886437</updated>
+    </task>
+    <task id="LOCAL-00016" summary="settings.gradle">
+      <option name="closed" value="true" />
+      <created>1691762039684</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691762039684</updated>
+    </task>
+    <task id="LOCAL-00017" summary="hw09-jdbc">
+      <option name="closed" value="true" />
+      <created>1696731724463</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696731724463</updated>
+    </task>
+    <task id="LOCAL-00018" summary="hw13-di">
+      <option name="closed" value="true" />
+      <created>1696760438121</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696760438121</updated>
+    </task>
+    <task id="LOCAL-00019" summary="hw13-di">
+      <option name="closed" value="true" />
+      <created>1696760989102</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696760989102</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update .gitignore" />
+    <MESSAGE value="hw04-gc" />
+    <MESSAGE value="hw05-byteCode" />
+    <MESSAGE value="hw02-collections" />
+    <MESSAGE value="hw03-annotations" />
+    <MESSAGE value="hw06-atm" />
+    <MESSAGE value="hw08-json" />
+    <MESSAGE value="hw07-msg" />
+    <MESSAGE value="hw05-bytecode" />
+    <MESSAGE value="hw05-revision" />
+    <MESSAGE value="hw05-revision2" />
+    <MESSAGE value="settings.gradle" />
+    <MESSAGE value="hw09-jdbc" />
+    <MESSAGE value="hw13-di" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw13-di" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

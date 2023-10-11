@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.otus.ProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-08T09:01:09" hostname="RU01-2850" time="0.17">
+  <properties/>
+  <testcase name="Р�Р· С„Р°Р№Р»Р° С‡РёС‚Р°РµС‚СЃСЏ json, РѕР±СЂР°Р±Р°С‚С‹РІР°РµС‚СЃСЏ, СЂРµР·СѓР»СЊС‚Р°С‚ СЃРµСЂРёР°Р»РёР·СѓРµС‚СЃСЏ РІ СЃС‚СЂРѕРєСѓ" classname="ru.otus.ProcessorTest" time="0.17"/>
+  <system-out><![CDATA[C:\Users\SAMUSE~1\AppData\Local\Temp\junit15575860683061245168
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

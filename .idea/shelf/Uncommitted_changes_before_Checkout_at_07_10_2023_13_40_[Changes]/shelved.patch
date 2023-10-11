@@ -1,0 +1,19 @@
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>rootProject.name = 'java-prof'\r\ninclude 'hw01'\r\ninclude 'hw02'\r\ninclude 'hw03'\r\ninclude 'hw04'\r\ninclude 'hw08'\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle b/settings.gradle
+--- a/settings.gradle	(revision e5375d154fb80954ffe2ce0c3eb5db2ddcf4832b)
++++ b/settings.gradle	(date 1696675075304)
+@@ -3,4 +3,8 @@
+ include 'hw02'
+ include 'hw03'
+ include 'hw04'
++include 'hw05'
++include 'hw05'
++include 'hw06'
++include 'hw07'
+ include 'hw08'

@@ -1,0 +1,20 @@
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>rootProject.name = 'java-prof'\r\ninclude 'hw01'\r\ninclude 'hw02'\r\ninclude 'hw03'\r\ninclude 'hw04'\r\ninclude 'hw05'
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle b/settings.gradle
+--- a/settings.gradle	(revision 37993faef4414a1a066114f5cf1eda535ebbdd89)
++++ b/settings.gradle	(date 1696675255020)
+@@ -3,4 +3,7 @@
+ include 'hw02'
+ include 'hw03'
+ include 'hw04'
+-include 'hw05'
+\ No newline at end of file
++include 'hw05'
++include 'hw06'
++include 'hw07'
++include 'hw08'
