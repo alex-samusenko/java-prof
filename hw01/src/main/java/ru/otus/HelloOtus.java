@@ -14,6 +14,6 @@ public class HelloOtus {
             example.add(i);
         }
 
-        System.out.println(Lists.reverse(example));
+        System.out.println("Результат: " + Lists.reverse(example));
     }
 }
