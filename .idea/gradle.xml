@@ -18,7 +18,6 @@
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -31,6 +30,8 @@
             <option value="$PROJECT_DIR$/hw06" />
             <option value="$PROJECT_DIR$/hw07" />
             <option value="$PROJECT_DIR$/hw08" />
+            <option value="$PROJECT_DIR$/hw09" />
+            <option value="$PROJECT_DIR$/hw10" />
             <option value="$PROJECT_DIR$/hw13" />
           </set>
         </option>
