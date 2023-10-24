@@ -4,28 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b71169-bf78-4078-a320-f1f17cf3f75e" name="Changes" comment="hw10-hibernate">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+    <list default="true" id="75b71169-bf78-4078-a320-f1f17cf3f75e" name="Changes" comment="hw11-cache">
+      <change afterPath="$PROJECT_DIR$/hw11/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/docker/runDb.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/cache/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/cache/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/repository/DataTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/repository/DataTemplateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/repository/DataTemplateHibernate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/repository/HibernateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/sessionmanager/DataBaseOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/sessionmanager/TransactionAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/sessionmanager/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/core/sessionmanager/TransactionManagerHibernate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/crm/dbmigrations/MigrationsExecutorFlyway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/crm/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/crm/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/crm/model/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/crm/service/DBServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/crm/service/DbServiceClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/java/ru/otus/demo/DbServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/resources/db/migration/V1__initial_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw11/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_36__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_40__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2023_13_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2023_13_42__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_36_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_36__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_40_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2023_13_40__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2023_13_42_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_10_2023_13_42__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/classes/java/main/Versions.class" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/Versions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/tmp/compileJava/compileTransaction/stash-dir/Versions.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/tmp/compileJava/compileTransaction/stash-dir/Versions.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +90,17 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw10-jpql" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alex-samusenko"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alex-samusenko&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
       <list>
@@ -102,35 +122,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/work/java-prof/hw13/src/test/java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw11-cache&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/java-prof/hw11/src/main/java/ru/otus&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.otus.jdbc.mapper" />
       <recent name="ru.otus.processor.homework" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\java-prof\hw13\src\test\java" />
-      <recent name="C:\work\java-prof\hw13\src\main\java" />
-      <recent name="C:\work\java-prof\hw09\src\main\java\ru\otus" />
-      <recent name="C:\work\java-prof\hw09\src\main\resources" />
-      <recent name="C:\work\java-prof\hw09" />
+      <recent name="C:\work\java-prof\hw11\src\main\java\ru\otus" />
+      <recent name="C:\work\java-prof\hw10\src\main\java\ru\otus" />
+      <recent name="C:\work\java-prof\hw11\src\main\resources" />
+      <recent name="C:\work\java-prof\hw11\src\main\resources\db\migration" />
+      <recent name="C:\work\java-prof\hw11\src\main\java\ru\otus\crm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\java-prof\hw02\src\test\java\ru\otus" />
@@ -141,28 +160,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.java-prof [build]">
-    <configuration name="java-prof [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+  <component name="RunManager" selected="Application.DbServiceDemo">
+    <configuration name="DbServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.demo.DbServiceDemo" />
+      <module name="java-prof.hw11.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-prof.hw02.test" />
@@ -228,7 +238,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.java-prof [build]" />
+      <item itemvalue="Application.DbServiceDemo" />
       <item itemvalue="JUnit.CustomerTest" />
       <item itemvalue="JUnit.CustomerTest.mutationTest" />
       <item itemvalue="JUnit.CustomerTest.reverseOrderTest" />
@@ -236,11 +246,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DbServiceDemo" />
         <item itemvalue="JUnit.CustomerTest.scoreSortingTest" />
         <item itemvalue="JUnit.CustomerTest.reverseOrderTest" />
         <item itemvalue="JUnit.CustomerTest.mutationTest" />
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="Gradle.java-prof [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696760989102</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="hw13-di">
+      <option name="closed" value="true" />
+      <created>1698136702340</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698136702340</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -448,9 +466,10 @@
     <MESSAGE value="hw05-revision2" />
     <MESSAGE value="settings.gradle" />
     <MESSAGE value="hw09-jdbc" />
-    <MESSAGE value="hw13-di" />
     <MESSAGE value="hw10-hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw10-hibernate" />
+    <MESSAGE value="hw13-di" />
+    <MESSAGE value="hw11-cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw11-cache" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
