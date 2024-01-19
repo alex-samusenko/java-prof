@@ -8,6 +8,7 @@ public class CustomThread extends Thread {
     private final Object lock;
     private int counter;
     private Boolean direction;
+    private static String last = "second";
 
     public CustomThread(Object object, String name) {
         this.lock = object;
@@ -21,11 +22,14 @@ public class CustomThread extends Thread {
         while (!Thread.currentThread().isInterrupted()) {
             synchronized (lock) {
                 try {
+                    while (last.equals(this.getName())) {
+                        lock.wait();
+                    }
+                    last = this.getName();
                     if (counter == 1 || counter == 10) direction = !direction;
                     logger.info(String.valueOf(direction ? counter++ : counter--));
                     sleep();
-                    lock.notify();
-                    lock.wait();
+                    lock.notifyAll();
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 }
