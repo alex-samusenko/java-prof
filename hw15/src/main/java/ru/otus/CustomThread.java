@@ -9,10 +9,11 @@ public class CustomThread extends Thread {
     private int counter;
     private Boolean direction;
 
-    public CustomThread(Object object) {
+    public CustomThread(Object object, String name) {
         this.lock = object;
         this.counter = 1;
         this.direction = false;
+        this.setName(name);
     }
 
     @Override
