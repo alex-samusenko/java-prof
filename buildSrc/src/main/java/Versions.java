@@ -7,4 +7,6 @@ public interface Versions {
     String r2dbcPostgresql = "0.8.13.RELEASE";
     String reflections = "0.10.2";
     String glassfishJson = "2.0.1";
+    String jetty = "11.0.19";
+    String freemarker = "2.3.32";
 }
