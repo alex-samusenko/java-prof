@@ -24,7 +24,7 @@ public class Phone {
     private Client client;
 
     public Phone(String id, Client number) {
-        this.id = id;
-        this.number = number;
+        this.id = Long.valueOf(id);
+        this.number = String.valueOf(number);
     }
 }
