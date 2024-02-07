@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+    <title>Админка</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 650px;
+        }
+
+        th, td {
+            border: 1px solid #767676;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+<h2>Создать клиента:</h2>
+<form action="clients" method="post">
+    <label>Имя<br/> <input type="text" name="name"> </label> <br/>
+    <label>Адрес<br/> <input type="text" name="address"> </label> <br/>
+    <label>Телефон<br/> <input type="text" name="phone"> </label> <br/>
+    <input type="submit" value="Добавить" style="margin-top: 10px;">
+</form>
+
+<h2>Список клиентов:</h2>
+<table>
+    <thead>
+    <tr>
+        <th style="width: 50px">Id</th>
+        <th style="width: 200px">Имя</th>
+        <th style="width: 200px">Адрес</th>
+        <th style="width: 200px">Телефон</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>${client.id}</td>
+        <td>${client.name}</td>
+        <td>${client.address}</td>
+        <td>${client.phones}</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

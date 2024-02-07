@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@SuppressWarnings("java:S1075")
 public class ClientWebServerImpl implements ClientWebServer {
     private static final String ROLE_NAME_ADMIN = "admin";
     private static final String CONSTRAINT_NAME = "auth";
@@ -32,6 +33,7 @@ public class ClientWebServerImpl implements ClientWebServer {
     private final ClientHelper clientMappingHelper;
     protected final TemplateProcessor templateProcessor;
     private final Server server;
+
 
     public ClientWebServerImpl(int port,
                             LoginService loginService,

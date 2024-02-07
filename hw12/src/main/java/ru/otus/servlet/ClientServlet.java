@@ -19,6 +19,7 @@ public class ClientServlet extends HttpServlet {
     private final TemplateProcessor templateProcessor;
     private final ClientHelper clientHelper;
 
+    @SuppressWarnings({"squid:S1948"})
     public ClientServlet(TemplateProcessor templateProcessor, DBServiceClient dbServiceClient, ClientHelper clientHelper) {
         this.templateProcessor = templateProcessor;
         this.dbServiceClient = dbServiceClient;
