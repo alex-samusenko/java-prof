@@ -6,7 +6,7 @@ compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
 dependencies {
-    implementation 'org.projectlombok:lombok'
+    implementation("org.projectlombok:lombok:${Versions.lombok}")
     annotationProcessor 'org.projectlombok:lombok'
 
     implementation('ch.qos.logback:logback-classic')
